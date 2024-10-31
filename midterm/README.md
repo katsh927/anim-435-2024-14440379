@@ -11,5 +11,5 @@ Features
 - Adds a framing chart image plane to the selected camera.
 
 Installation
-1. Save the `cameras.csv` file in the `data` folder within your project directory.
-2. Update the script with the correct path to your CSV file.
+1. Save the camera.csv file in the data folder within your Maya project.
+2. UPDATE THE SCRIPT with the correct path to your CSV file.
