@@ -7,7 +7,7 @@ In an attempt to get extra credit, is should also add a framing chart image plan
 Features
 - Loads cameras from a CSV list.
 - Allows selection of cameras from a UI control.
-- Sets the filmback size and focal length correctly.
+- Sets the filmback size and focal length.
 - Adds a framing chart image plane to the selected camera.
 
 Installation
