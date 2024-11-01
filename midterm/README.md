@@ -12,4 +12,4 @@ Features
 
 Installation
 1. Save the camera.csv file in the data folder within your Maya project.
-2. UPDATE THE SCRIPT with the correct path to your CSV file.
+2. UPDATE THE SCRIPT with the correct path to your CSV file-- ideally this would be running with an arg but here we are. 
