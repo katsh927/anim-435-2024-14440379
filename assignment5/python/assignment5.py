@@ -47,7 +47,7 @@ def create_camera(name, filmback_width, filmback_height, focal_length, chart_pat
     cmds.setAttr(f"{cam_shape}.verticalFilmAperture", filmback_height)
     cmds.setAttr(f"{cam_shape}.focalLength", focal_length)
     
-    #framing chart 
+#framing chart 
     if chart_path:
         logger.info(f"Adding image plane from chart: {chart_path}")
         img_plane = cmds.imagePlane(fileName=chart_path, showInAllViews=False)
@@ -104,4 +104,3 @@ if __name__ == "__main__":
     except Exception as e:
         logger.error(f"Failed to initialize camera loader. Please check that your csv is correctly connected and try again.")
 
-        #I'm admittedly not sure if I did this right because I couldn't get my desired error messages to show. 
